@@ -1,0 +1,77 @@
+.textInicio {
+    font-size: 28px; /* Ajusta el tamaño del texto según sea necesario */
+    margin-bottom: 8px; /* Espacio entre líneas */
+    font-family: "PT Sans Narrow";
+    margin-bottom: -40px;
+  }
+  
+  .Nombre {
+    font-size: 65px; /* Tamaño del nombre más grande */
+    font-family: "Lilita One";
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-bottom: -15px;
+  }
+  
+  .profesion {
+    font-size: 25px; /* Tamaño de la profesión */
+    font-family: "Teachers";
+    letter-spacing: 2px;
+  }
+  
+  
+  .inicio-section {
+    background: rgb(11,15,20);
+    background: linear-gradient(180deg, rgba(11,15,20,1) 72%, rgba(83,2,78,1) 100%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    position: relative;
+    z-index: 998;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+  
+  .contenido {
+    margin-left: 25px;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .imagen {
+    width: 50%;
+    text-align: center;
+    max-width: 100%; /* Establecer el ancho máximo al 100% del contenedor */
+    height: auto; /* Permitir que la altura se ajuste automáticamente para mantener la relación de aspecto */
+    max-height: 300px; /* Establecer la altura máxima deseada */
+  }
+  
+  .botones {
+    margin-top: 50px;
+  }
+  
+  button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: gray;
+  }
+
+   /* Media query para pantallas más pequeñas */
+   @media screen and (max-width: 768px) {
+    .inicio-section {
+      flex-direction: column; /* Cambiar a dirección de columna en pantallas más pequeñas */
+      justify-content: center; /* Centrar contenido verticalmente */
+      text-align: center; /* Centrar texto horizontalmente */
+    }
+  }

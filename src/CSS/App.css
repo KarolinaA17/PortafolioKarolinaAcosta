@@ -1,0 +1,24 @@
+/* Estilos generales de la aplicación */
+
+body {
+  font-family: Arial, sans-serif; /* Cambia la fuente según sea necesario */
+  background-color: #f4f4f4; /* Cambia el color de fondo según sea necesario */
+    margin: 0; /* Eliminar el margen predeterminado */
+    padding: 0; /* Eliminar el padding predeterminado */
+}
+
+
+/* Ajusta el tamaño de fuente según sea necesario para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .container {
+      padding-top: 40px; /* Ajusta el espacio superior según sea necesario */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu-text {
+      font-size: 14px; /* Reducir el tamaño del texto del menú */
+  }
+}
+
+/* Agrega cualquier estilo general adicional que necesites */
